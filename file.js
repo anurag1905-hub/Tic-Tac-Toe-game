@@ -16,7 +16,7 @@ function myFunction(){
         document.getElementById('b7').disabled=true;
         document.getElementById('b8').disabled=true;
         document.getElementById('b9').disabled=true;
-        window.alert('Player X Won!');
+        setTimeout(function(){window.alert('Player X Won!');},0);
         return;
     }
 
@@ -28,7 +28,7 @@ function myFunction(){
         document.getElementById('b6').disabled=true;
         document.getElementById('b8').disabled=true;
         document.getElementById('b9').disabled=true;
-        window.alert('Player X Won!');
+        setTimeout(function(){window.alert('Player X Won!');},0);
         return;
     }
 
@@ -40,7 +40,7 @@ function myFunction(){
         document.getElementById('b4').disabled=true;
         document.getElementById('b5').disabled=true;
         document.getElementById('b6').disabled=true;
-        window.alert('Player X Won!');
+        setTimeout(function(){window.alert('Player X Won!');},0);
         return;
     }
 
@@ -52,7 +52,7 @@ function myFunction(){
         document.getElementById('b5').disabled=true;
         document.getElementById('b7').disabled=true;
         document.getElementById('b8').disabled=true;
-        window.alert('Player X Won!');
+        setTimeout(function(){window.alert('Player X Won!');},0);
         return;
     }
 
@@ -66,7 +66,7 @@ function myFunction(){
         document.getElementById('b6').disabled=true;
         document.getElementById('b7').disabled=true;
         document.getElementById('b8').disabled=true;
-        window.alert('Player X Won!');
+        setTimeout(function(){window.alert('Player X Won!');},0);
         return;
     }
 
@@ -78,7 +78,7 @@ function myFunction(){
         document.getElementById('b6').disabled=true;
         document.getElementById('b8').disabled=true;
         document.getElementById('b9').disabled=true;
-        window.alert('Player X Won!');
+        setTimeout(function(){window.alert('Player X Won!');},0);
         return;
     }
 
@@ -90,7 +90,7 @@ function myFunction(){
         document.getElementById('b6').disabled=true;
         document.getElementById('b7').disabled=true;
         document.getElementById('b9').disabled=true;
-        window.alert('Player X Won!');
+        setTimeout(function(){window.alert('Player X Won!');},0);
         return;
     }
 
@@ -102,7 +102,7 @@ function myFunction(){
         document.getElementById('b7').disabled=true;
         document.getElementById('b8').disabled=true;
         document.getElementById('b9').disabled=true;
-        window.alert('Player X Won!');
+        setTimeout(function(){window.alert('Player X Won!');},0);
         return;
     }
 
@@ -114,7 +114,7 @@ function myFunction(){
         document.getElementById('b7').disabled=true;
         document.getElementById('b8').disabled=true;
         document.getElementById('b9').disabled=true;
-        window.alert('Player O Won!');
+        setTimeout(function(){window.alert('Player O Won!');},0);
         return;
     }
 
@@ -126,7 +126,7 @@ function myFunction(){
         document.getElementById('b6').disabled=true;
         document.getElementById('b8').disabled=true;
         document.getElementById('b9').disabled=true;
-        window.alert('Player O Won!');
+        setTimeout(function(){window.alert('Player O Won!');},0);
         return;
     }
 
@@ -138,7 +138,7 @@ function myFunction(){
         document.getElementById('b4').disabled=true;
         document.getElementById('b5').disabled=true;
         document.getElementById('b6').disabled=true;
-        window.alert('Player O Won!');
+        setTimeout(function(){window.alert('Player O Won!');},0);
         return;
     }
 
@@ -150,7 +150,7 @@ function myFunction(){
         document.getElementById('b5').disabled=true;
         document.getElementById('b7').disabled=true;
         document.getElementById('b8').disabled=true;
-        window.alert('Player O Won!');
+        setTimeout(function(){window.alert('Player O Won!');},0);
         return;
     }
 
@@ -164,7 +164,7 @@ function myFunction(){
         document.getElementById('b6').disabled=true;
         document.getElementById('b7').disabled=true;
         document.getElementById('b8').disabled=true;
-        window.alert('Player O Won!');
+        setTimeout(function(){window.alert('Player O Won!');},0);
         return;
     }
 
@@ -176,7 +176,7 @@ function myFunction(){
         document.getElementById('b6').disabled=true;
         document.getElementById('b8').disabled=true;
         document.getElementById('b9').disabled=true;
-        window.alert('Player O Won!');
+        setTimeout(function(){window.alert('Player O Won!');},0);
         return;
     }
 
@@ -188,7 +188,7 @@ function myFunction(){
         document.getElementById('b6').disabled=true;
         document.getElementById('b7').disabled=true;
         document.getElementById('b9').disabled=true;
-        window.alert('Player O Won!');
+        setTimeout(function(){window.alert('Player O Won!');},0);
         return;
     }
 
@@ -200,7 +200,7 @@ function myFunction(){
         document.getElementById('b7').disabled=true;
         document.getElementById('b8').disabled=true;
         document.getElementById('b9').disabled=true;
-        window.alert('Player O Won!');
+        setTimeout(function(){window.alert('Player O Won!');},0);
         return;
     }
 
@@ -208,7 +208,7 @@ function myFunction(){
     (b4=='X'||b4=='O')&&(b5=='X'||b5=='O')&&(b6=='X'||b6=='O')&&(b7=='X'||b7=='O')&&
     (b8=='X'||b8=='O')&&(b9=='X'||b9=='O')){
         document.getElementById('print').innerHTML="Match Tied!";
-        window.alert("Match Tied!");
+        setTimeout(function(){window.alert('Match Tied!');},0);
         return;
     }
 
